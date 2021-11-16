@@ -1,0 +1,71 @@
+.nav-wrapper{
+    color: blueviolet;
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.input{
+    border: none;
+    padding: 0.5em 1em;
+
+}
+
+.lang{
+    cursor: pointer;
+    text-transform: uppercase;
+    padding:0. 3em 0.3em;
+margin-left: 1em;
+margin-right: 1em;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+    /* font-size: 1.5rem; */
+}
+
+.left{
+    display: flex;
+    flex: 1;
+    margin:1%
+
+}
+
+
+.center{
+    display: flex;
+    flex: 1;
+    
+}
+
+.right{
+    display: flex;
+    flex: 1;
+    /* margin-right: 2em; */
+}
+
+.right ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+
+
+
+
+.right ul  a{
+    text-decoration: none;
+    margin-left: 1em;
+    color: darkgray;
+    margin-right: 1;
+
+}
+
