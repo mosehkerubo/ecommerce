@@ -33,9 +33,10 @@ const Nav = () => {
 <ul>
   <li><a href="#">Login</a></li>
   <li><a href="#">Register</a></li>
-  <Badge badgeContent={4} color="secondary">
+  
+  <li><Badge badgeContent={4} color="secondary">
         <LocalMallOutlinedIcon color="action" />
-      </Badge>
+      </Badge></li>
 </ul>
       </div>
 

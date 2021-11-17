@@ -61,11 +61,24 @@ margin-right: 1em;
 
 
 
-.right ul  a{
-    text-decoration: none;
-    margin-left: 1em;
-    color: darkgray;
-    margin-right: 1;
+/* .right ul  a{ */
+    /* margin-left: 1em; */
+   
+    /* margin:0 2em; */
 
+
+/* } */
+.right ul a{
+    color:rgb(61, 52, 52);
+    text-decoration: none;
+    margin: 1em;
+
+
+}
+
+
+.right ul a:hover
+{
+    color: red;
 }
 
