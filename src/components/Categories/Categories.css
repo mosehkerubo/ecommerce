@@ -1,0 +1,10 @@
+.category-img-content{
+    display: flex;
+
+}
+
+
+.category-img-content img{
+width: 100%;
+height: 100vh;
+}

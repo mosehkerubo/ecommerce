@@ -1,20 +1,21 @@
 import React from 'react';
+import "./Categories.css";
+import { categories } from '../../data';
 import CategoriesItem from '../CategoriesItem/CategoriesItem';
 const Categories= ()=>{
     return(
-    <div>
-        <p>name</p>
-        <button>Buy Now</button>
-
-
-        <p>name</p>
-        <button>Buy Now</button>
-
-
-        <p>name</p>
-        <button>Buy Now</button>
-    </div>)
-}
+        <div className="category-img-content">
+            {
+        categories.map(item=>{
+       return(
+           <CategoriesItem item={item} />
+       )
+            
+        })
+    }
+        </div>
+    )
+};
 
 
 
