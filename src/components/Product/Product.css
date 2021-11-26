@@ -1,0 +1,11 @@
+.productimages{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em;
+    background-color:#C3CEFB;
+    position: relative;
+    z-index: 1;
+
+}
