@@ -129,11 +129,11 @@ flex: 1;
     color: #78C4D4;
 }
 
-.add-tag div{
-    /* border: 2px solid grey; */
-    /* width: 30px;
-    height: 30px; */
-}
+/* .add-tag div{
+    border: 2px solid grey;
+    width: 30px;
+    height: 30px;
+} */
 
 .add-tag{
     display: flex;
@@ -199,13 +199,188 @@ display: flex;
 .blue{
     background-color: #78C4D4;
 }
-/* 
-.content p{
-    max-width: 50px;
-} */
 
 
-/* 
-.ankara-des{
+
+
+
+/*LOGINPAGE*/
+
+
+
+.my-h1{
     display: flex;
-} */
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+}
+
+
+.my-h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+    
+}
+
+
+
+.input1{
+    outline: none;
+    border: none;
+    margin: 1em;
+    border-bottom: 2px solid black;
+    width: 700px;
+
+}
+
+.input2{
+    border:  none;
+
+    margin: 2em;
+    outline: none;
+    border-bottom: 2px solid black;
+    width: 700px;
+}
+
+
+/* 
+.rem-for{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* margin-left: 3em; */
+
+/* } */ */
+.btn {
+    color: red;
+}
+#login-button{
+    padding: .5em 1em;
+    width: 80%;
+    background-color: #317c7c !important;
+    color: #fff;
+    margin-top:3em;
+    margin-left: 2em;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.check-rem{
+    display: flex;
+    align-items: center;
+    margin-left: 6.5em;
+    /* margin-right: 3em; */
+
+}
+
+
+.Forgot-password{
+    margin-right: 6.5em;
+
+
+}
+
+.Forgot-password p a{
+    color: rgba(50,112,141,.8);
+    text-decoration: none;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    margin: 3em 0;
+}
+
+
+
+.login-container{
+    /* align-items: center; */
+   
+   
+    display: flex;
+height: 80vh;
+
+}
+
+
+
+.my-h3{
+    border: none;
+}
+.background-side{
+    background: linear-gradient(rgba(59,119,121,0.8),rgba(50,112,141,.8)) ,url("./pages/Images/bg-phot.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+    
+}
+
+.new-btn{
+    display:flex;
+    align-items: center;
+    margin: 1.5em;
+    justify-content: center;
+
+}
+
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading{
+    /* background-color: brown; */
+    width: 50%;
+}
+
+
+.welcome-part{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+
+    /* text-align: center; */
+}
+
+.welcome-part p p{
+   font-weight: bold; 
+
+}
+
+.eye-icons{
+    position: absolute;
+    top: 50%;
+    left:95%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.password-holder{
+    position: relative;
+}
+
+
+.welcome-paragraph{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+.welcome-part h2{
+    font-size: 2.5rem;
+}
+
