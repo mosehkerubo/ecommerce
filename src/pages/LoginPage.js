@@ -34,11 +34,15 @@ const Loginpage=()=>{
     <div className="input-login-section">
         <div className="
         inputs">
-            <div >
-<input type="email" placeholder="email" className="input1" />
+            <div className="form">
+
+<input type="text" placeholder="" className="input1 form__label"  />
+<label for="email" className="label">Email</label>
 </div>
    <div className="password-holder"> 
-<input type={showPass?"text":"password"} placeholder="Password" className="input2"/>
+   
+<input type={showPass?"text":"password"} placeholder="" className="input1 form__label"/>
+<label className="label"> Password</label>
 
 <div className="eye-icons" onClick={togglePassWardVisibility}>
 {showPass ?  < VisibilityOutlinedIcon /> :<VisibilityOffOutlinedIcon />}
@@ -70,10 +74,10 @@ const Loginpage=()=>{
 </div>
 <div className="new-btn">
     <p>New to Magoso Enterprises</p>
-<button>Create Account</button>
+<button className="create-acc-btn">Create Account</button>
 </div>
 <div className="copyright">
-<p>Magoso Enterprises &copy;</p>
+<p>Magoso Enterprises &copy;2021</p>
 
 </div>
 </div>
@@ -84,7 +88,7 @@ const Loginpage=()=>{
     <p>WELCOME TO</p>
     </div>
     <h2>Magoso Enterprises.</h2>
-    <p>The Home of Reliable rhopping</p>
+    <p>The Home of Reliable Shopping</p>
 </div>
 
 

@@ -28,7 +28,7 @@ margin-right: 1em;
     border: 2px solid grey;
     border-radius: 10px;
     
-    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
 }
 
 .left{
@@ -42,13 +42,18 @@ margin-right: 1em;
 .center{
     display: flex;
     flex: 1;
+
     
+}
+
+.center h1{
+    color: blueviolet;
 }
 
 .right{
     display: flex;
     flex: 1;
-    /* margin-right: 2em; */
+   
 }
 
 .right ul{
@@ -61,13 +66,7 @@ margin-right: 1em;
 
 
 
-/* .right ul  a{ */
-    /* margin-left: 1em; */
-   
-    /* margin:0 2em; */
 
-
-/* } */
 .right ul a{
     color:rgb(61, 52, 52);
     text-decoration: none;
@@ -81,4 +80,22 @@ margin-right: 1em;
 {
     color: red;
 }
+
+
+
+
+/*MEDIA QUERRY*/
+@media(max-width:810px),(max-width:414px){
+
+.lang{
+    display: none;
+}
+.center h1{
+    font-size: 1rem;
+}
+
+}
+
+
+
 

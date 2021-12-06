@@ -12,7 +12,7 @@ const Newsletter=()=>{
             <div className="input-send">
             
             <div className="my-input">
-            <input type="text" placeholder="Enter email address" className="input"/>
+            <input type="text" placeholder="Enter email address" className="news-input"/>
             </div>
 
             <button className="btn-input"><SendOutlinedIcon/></button>

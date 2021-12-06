@@ -8,21 +8,24 @@ import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
 import SingleProductPage from "./SingleProductPage";
 import Loginpage from "./LoginPage";
+import SignUpPage from "./SignUpPage";
+import CartPage from "./CartPage";
 
 
 // import Product from "./data.js";
 const Home=()=>{
     return(
         <div>
+
+<Nav />
     <Announcement />
-    <Nav />
+    
     <Slider />
     <Categories />
     <Product />
     <Newsletter />
     <Footer />
-    <SingleProductPage />
-    <Loginpage />
+    
     </div>
 
         )

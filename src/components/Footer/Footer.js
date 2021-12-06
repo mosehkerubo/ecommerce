@@ -133,9 +133,7 @@ Useful Links
 
 </div>
 
-<div className="contact-area">
 
-</div>
 
 
 

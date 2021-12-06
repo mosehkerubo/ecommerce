@@ -33,7 +33,7 @@ transition: all 1.5s ease;
     /* padding: 2em; */
 }
 
-.slide-content{
+.slide-content h1{
     font-size: 2rem;
 
 }
@@ -93,6 +93,15 @@ cursor: pointer;
 
 
 }
+/*MEDIA QUERRY*/
 
 
+@media(max-width:810px),(max-width:414px){
+    .slide-content h1{
+        font-size: 1.5rem;
+    }
 
+    .slide-content p{
+        font-size: 1rem;
+    }
+}
