@@ -153,7 +153,9 @@ Useful Links
 </div>
 </div>
 </div>
-
+<div className="bottom-footer">
+<p>Magoso Enterprises &copy;2021 All Rights Reserved</p>
+</div>
 </>
 )
    

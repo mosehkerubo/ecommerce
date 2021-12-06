@@ -8,3 +8,13 @@
 width: 100%;
 height: 100vh;
 }
+
+@media (max-width:810px),(max-width:414px){
+    .category-img-content{
+        flex-wrap: wrap;
+        flex: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

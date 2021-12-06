@@ -5,6 +5,7 @@ import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
+import { Link } from "@mui/material";
 const Loginpage=()=>{
     const[showPass,setShowPass]=useState(false);
     const togglePassWardVisibility=()=>{
@@ -74,7 +75,7 @@ const Loginpage=()=>{
 </div>
 <div className="new-btn">
     <p>New to Magoso Enterprises</p>
-<button className="create-acc-btn">Create Account</button>
+<Link><button className="create-acc-btn">Create Account</button></Link>
 </div>
 <div className="copyright">
 <p>Magoso Enterprises &copy;2021</p>

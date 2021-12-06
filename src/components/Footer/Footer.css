@@ -1,5 +1,5 @@
 .footer{
-    background-color: blanchedalmond;
+    background-color: #EFEAEA;
 }
 
 .footer-container{
@@ -15,6 +15,18 @@ padding: 2em;}
 width: 80%;
 margin: 0 auto;
 
+ }
+
+ .bottom-footer{
+
+    background-color: #494545;
+    padding: 1.5em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
  }
 
 
@@ -194,17 +206,24 @@ width: 100%;
 
 }
 
-.foooter-container{
+.footer-container{
     flex-wrap: wrap;
 
-}
 
+}
+.footer{
+    flex-wrap: wrap;
+}
 
 .icons-content p{
     font-size: 1.5em;
     
 }
 .icons-content{
+    width: 50%;
+    flex: none;
+}
+.address-container{
     width: 50%;
     flex: none;
 }
