@@ -82,7 +82,7 @@ const decrease=()=>{
 
 <div className="cart2-content">
     <div className="tshirt-pic">
-    <div><img src="https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png" /></div>
+    <img src="https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png" />
 </div>
 <div>
     <div className="remove-cart">
