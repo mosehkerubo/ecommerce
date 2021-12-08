@@ -8,7 +8,7 @@ Magoso Deals with Enterprises for Different Items and  the Institution  Deals wi
 ## Project Link 
 
 
-You can view the live project [here](http://localhost:3000/ecommerce)
+You can view the live project [here]( https://mosehkerubo.github.io/ecommerce/)
 ### Project ScreenShot
 ---
 ![Website Top Section](./public/Images/eccomerce3.png)
