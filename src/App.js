@@ -7,7 +7,7 @@ import SingleProductPage from './pages/SingleProductPage';
 import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
 import CartPage from './pages/CartPage';
-import{BrowserRouter as Router ,Routes,Route} from "react-router-dom";
+import{HashRouter as Router ,Routes,Route} from "react-router-dom";
 
 function App() {
   return (
