@@ -43,10 +43,10 @@ If you want to run this application in your computer,do the following;
  -Java script(es 6)
  -Node JS 16.13.0
 
- ### Known bugs
+ ## Known bugs
  Make sure you use the LTS version of node
 
- ### License
+ ## License
  ---
 
  
@@ -72,11 +72,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-####Contact Information
+## Contact Information
 ---
 Incase of inquaries or bugs you can reach me on mosehkerubo@gmail.com
 
-####Author
+## Author
 ---
 ***Moseh Kerubo***
 
