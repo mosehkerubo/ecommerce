@@ -1,11 +1,11 @@
-#MAGOSO ENTERPRISES
+# MAGOSO ENTERPRISES
 ---
-##Description
+## Description
 ***
 Magoso Deals with Enterprises for Different Items and  the Institution  Deals with DIfferent Activities Such as Disignining African Products of Different designs,Fashion Design,Modelling and Cultural Music.You Can also order a viriety of Products through Online and get them Through Free Delivery.
 
 
-##Project Link 
+## Project Link 
 
 
 You can view the live project [here]()
@@ -21,7 +21,7 @@ You can view the live project [here]()
 
 ![Website Top Section](./public/Images/eccomerce1.png)
 
-##Set Up an Installation
+## Set Up an Installation
 ---
 If you want to run this application in your computer,do the following;
 - Clone the project to your desired locationn using this commmands-; 
